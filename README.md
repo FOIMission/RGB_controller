@@ -12,7 +12,7 @@
 
 ### 原理图:
 
-![image-20260514213812456](D:\qtcreator\project\RGB_controller\img\image-20260514213812456.png)
+![image-20260514213812456](./img/image-20260514213812456.png)
 
 原理：当pwm处于高电平状态时，三极管导通，pmos管的g级被拉低，开启mos管，进而输出电压。
 
@@ -22,7 +22,7 @@
 
 ### 上位机：
 
-![image-20260514214250252](D:\qtcreator\project\RGB_controller\img\image-20260514214250252.png)
+![image-20260514214250252](./img/image-20260514214250252.png)
 
 通过串口设备可实现实时通信，若采用总线式通信，则能一拖多，对多个点光源进行实时调节。
 
@@ -55,4 +55,4 @@ void MainWindow::send_str(int rgb_int,uint16_t channel)
 
 ### 实物图片：
 
-![b1ed57535e0e7e7691e7bb528a03b08](D:\qtcreator\project\RGB_controller\img\b1ed57535e0e7e7691e7bb528a03b08.jpg)
+![b1ed57535e0e7e7691e7bb528a03b08](./img/b1ed57535e0e7e7691e7bb528a03b08.jpg)
